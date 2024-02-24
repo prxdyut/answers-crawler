@@ -9,19 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^3.0.1",
+    "axios": "^1.6.7",
+    "better-react-mathjax": "^2.0.3",
+    "html-react-parser": "^5.1.7",
+    "html-to-react": "^1.7.0",
+    "jsdom": "^24.0.0",
+    "next": "latest",
+    "node-html-parser": "^6.1.12",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-latex-next": "^2.2.0",
+    "rehype-katex": "^7.0.0",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest"
+    "typescript": "latest"
   }
 }

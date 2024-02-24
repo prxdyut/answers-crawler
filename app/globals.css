@@ -1,27 +1,142 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+table td {
+  border: 2px solid black;
+}
+.exercise-page .zxc_wrap {
+  display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.exercise-page .qp_result_data.qbq_text {
+  margin-top: 16px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.exercise-page .header_wrap {
+  display: none;
+}
+
+.exercise-page .block.chapter_info.top > :nth-child(2) {
+  display: none;
+}
+
+.exercise-page .block.chapter_info.top > :nth-child(1) {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.exercise-page .exercise_no_list {
+  display: none;
+}
+
+.exercise-page .block h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.exercise-page .textbook_solutions_wrap > div > :nth-child(3) {
+  margin-top: 32px;
+}
+
+.exercise-page .block.chapter_info.top br {
+  display: none;
+}
+
+.exercise-page a.button_link.view_solution {
+  border: 2px solid gray;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.exercise-page .clearfix2 {
+  padding-block: 8px;
+  text-align: right;
+}
+
+.exercise-page .block.chapter_info:not(.top) {
+  display: none;
+}
+
+.book-page .block > :nth-last-child(1),
+.book-page .block > :nth-last-child(2),
+.book-page .block > :nth-child(1),
+.book-page .block > :nth-child(2),
+.book-page .block > :nth-child(3),
+.book-page .block > :nth-child(4) .book-page .block > :nth-child(5),
+.book-page .block > :nth-child(6),
+.book-page .block > :nth-child(8),
+.book-page .block > :nth-child(9) {
+  display: none;
+}
+.book-page a{
+  text-decoration: underline;
+  margin-bottom: 4px;
+  text-underline-position: from-font;
+}
+.book-page .block h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.browse-page .cus_item_data > *:not(:nth-child(3)) {
+  display: none;
+}
+
+.browse-page .icon > svg {
+  height: 2rem;
+}
+
+.browse-page .grid_col_left > :nth-child(1) {
+  display: none;
+}
+
+.browse-page .grid_col_left > :nth-last-child(1),
+.browse-page .grid_col_left > :nth-last-child(2),
+.browse-page .grid_col_left > :nth-last-child(3) {
+  display: none;
+}
+
+.browse-page .grid_col_left > * {
+  margin-top: 2rem;
+}
+
+.browse-page .grid_col_left > :nth-child(2) > *:not(:nth-child(1)) {
+  display: none;
+}
+
+.browse-page .cus_item_data a {
+  border: 2px solid grey;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+.browse-page .cus_item_data {
+  text-align: right;
+}
+.books-page .qp_result_data_filters{
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.books-page .qp_result_data.clearfix {
+  margin-bottom: 2rem;
+}
+.books-page .referencebook_info_wraper_inner {
+  font-size: 12px;
+}
+.books-page .referencebook_info_wraper a {
+  text-decoration: underline;
+}
+.books-page .qp_result_data.clearfix > * {
+  margin-bottom: 1rem;
+}
+.books-page .qp_result_data.clearfix > img {
+  border-radius: 8px;
+}
+.books-page .result_div > :nth-last-child(2),
+.books-page .result_div > :nth-last-child(3),
+.books-page .result_div > :nth-last-child(4) {
+  display: none;
+}
+.books-page .qp_result_data_pager {
+  display: none;
 }
